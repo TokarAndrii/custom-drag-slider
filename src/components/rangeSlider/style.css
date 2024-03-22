@@ -1,0 +1,31 @@
+.track {
+  background-color: #bfb1df;
+  height: 2px;
+  position: relative;
+}
+
+.thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #5228dc;
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: grab;
+}
+
+.progress {
+  background-color: #5228dc;
+  position: absolute;
+  height: 2px;
+  left: 0;
+}
+
+.holder {
+  background-color: transparent;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
